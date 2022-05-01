@@ -32,5 +32,5 @@
 #    print(contador)
 
 
-for tabla in range(101):
-    print(10 * tabla)
+for tabla in range(11):
+    print(5 * tabla)
