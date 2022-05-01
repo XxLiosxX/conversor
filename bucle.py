@@ -1,26 +1,25 @@
 #from tracemalloc import start
 
 
-#def run():
+def run():
 
-#        menu = """
-#        Quieres ver CP?🐧
-#
-#        1 - SI
-#        2 - NO
-#
-#        Elije una opcion (1, 2): """
-#        opcion = int(input(menu))
-#        if opcion == 1:
-#            while opcion:
-#                print("ERES BASURAAAAAAAAA")
-#        elif opcion == 2:
-#            print("Eres una gran persona❤")
-#
-#
-#
-#if __name__ == "__main__":
-#    run()
+        menu = """
+        Quieres ver CP?🐧
+
+        1 - SI
+        2 - NO
+
+        Elije una opcion (1, 2): """
+        opcion = int(input(menu))
+        if opcion == 1:
+            while opcion:
+                print("ERES BASURAAAAAAAAA")
+        elif opcion == 2:
+            print("Eres una gran persona❤")
+
+
+if __name__ == "__main__":
+    run()
 
 
 
@@ -32,5 +31,5 @@
 #    print(contador)
 
 
-for tabla in range(11):
-    print(5 * tabla)
+#for tabla in range(10):
+#    print(10 * tabla)
