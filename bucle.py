@@ -1,5 +1,5 @@
 #from tracemalloc import start
-
+from pynput.mouse import Controller
 
 def run():
 
@@ -12,7 +12,9 @@ def run():
         Elije una opcion (1, 2): """
         opcion = int(input(menu))
         if opcion == 1:
-            while opcion:
+            while opcion:         
+                mouse = Controller()
+                mouse.position = (300, 500)
                 print("ERES BASURAAAAAAAAA")
         elif opcion == 2:
             print("Eres una gran persona❤")
